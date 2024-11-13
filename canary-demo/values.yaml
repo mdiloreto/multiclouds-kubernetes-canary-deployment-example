@@ -22,10 +22,10 @@ canary:
 config:
   main:
     appColor: "blue"
-    welcomeMessage: "Bienvenidos al Curso de GCP de Educación IT!"
+    welcomeMessage: "Bienvendos a MultiClouds.Tech Site!"
   canary:
     appColor: "white"
-    welcomeMessage: "Bienvenidos al Curso de GCP de Educación IT! Canary"
+    welcomeMessage: "Bienvendos a MultiClouds.Tech Site! Canary"
 
 serviceMonitor:
   enabled: true

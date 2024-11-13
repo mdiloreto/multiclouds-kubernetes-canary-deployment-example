@@ -11,8 +11,7 @@ service:
   targetPort: 5000
 
 ingress:
-  enabled: true
-  host: "canary-demo.local"
+  enabled: false
 
 canary:
   enabled: true
@@ -22,11 +21,11 @@ canary:
 
 config:
   main:
-    appColor: "white"
-    welcomeMessage: "Welcome to Upcommerce.com!"
+    appColor: "blue"
+    welcomeMessage: "Bienvenidos al Curso de GCP de Educación IT!"
   canary:
-    appColor: "yellow"
-    welcomeMessage: "Welcome to Upcommerce.com Canary!"
+    appColor: "white"
+    welcomeMessage: "Bienvenidos al Curso de GCP de Educación IT! Canary"
 
 serviceMonitor:
   enabled: true
